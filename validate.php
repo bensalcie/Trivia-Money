@@ -6,7 +6,7 @@
    //get row posted data
    $data =json_decode(file_get_contents("php://input"));
    $checkoutRequestId =$data->CheckoutRequestID;  
-$link = mysqli_connect("localhost", "payherok_uhai", "payherouhai", "payherok_uhai");
+$link = mysqli_connect("localhost", "username", "password", "database");
 
 if($link === false){
     die("ERROR: Could not connect. " . mysqli_connect_error());
