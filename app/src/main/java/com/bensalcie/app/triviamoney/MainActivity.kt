@@ -93,7 +93,7 @@ class MainActivity : AppCompatActivity() {
             getString(R.string.app_name),
             amount,
             "174379",
-            "http://payherokenya.com/u/androidpayment/c2bcallback.php",
+            "http://somedormain.com/payment/etc/c2bcallback.php",
             Utils.sanitizePhoneNumber(phone_number)!!,
             "174379",
             Utils.getPassword(
